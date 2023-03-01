@@ -1,0 +1,97 @@
+.app__services{
+    background-color: gray;
+    color: #fff;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    text-align: center;
+}
+.app__services-left{
+    width: 500px;
+    border: 1px solid #fff;
+    padding: 5rem 0rem;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 18px;
+}
+.app__services-right{
+    margin: 2rem 0;
+    padding: 0rem 1rem;
+}
+
+@media screen and (max-width: 1238px) {
+    .app__services{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+}
+@media screen and (max-width: 758px) {
+    .app__services-left{
+        width: 400px;
+        font-size: 2rem;
+        line-height: 16px;
+        font-weight: bold;
+        /* border: 1px solid #fff;
+        padding: 5rem 0rem;
+        color: black;
+        font-weight: 500;
+         */
+    }
+    .app__services-right{
+        width: 400px;
+        font-size: 1.8rem;
+        line-height: 16px;
+        font-weight: normal;
+        /* margin: 2rem 0;
+        padding: 0rem 1rem; */
+    }
+}
+@media screen and (max-width: 610px) {
+    .app__services-left{
+        width: 300px;
+        font-size: 1.5rem;
+        line-height: 14px;
+        font-weight: bold;
+        /* border: 1px solid #fff;
+        padding: 5rem 0rem;
+        color: black;
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 18px; */
+    }
+    .app__services-right{
+        width: 350px;
+        font-size: 1.5rem;
+        line-height: 14px;
+        font-weight: normal;
+        /* margin: 2rem 0;
+        padding: 0rem 1rem; */
+    }
+}
+@media screen and (max-width: 526px) {
+    .app__services{
+        width: 350px;
+    }
+    .app__services-left{
+        width: 250px;
+        font-size: 1rem;
+        line-height: 12px;
+        font-weight: bold;
+        /* border: 1px solid #fff;
+        padding: 5rem 0rem;
+        color: black;
+        font-size: 2.5rem;
+        font-weight: 500;
+        line-height: 18px; */
+    }
+    .app__services-right{
+        width: 300px;
+        font-size: 1rem;
+        line-height: 12px;
+        font-weight: normal;
+    }
+}

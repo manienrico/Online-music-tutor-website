@@ -1,0 +1,16 @@
+.app__service{
+    margin: 1rem 1rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.app__service-card{
+    width: 400px;
+    margin: 0rem 1rem;
+    padding: 2rem 4rem;
+    border: 1px solid #fff;
+    background-color: black;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+}
