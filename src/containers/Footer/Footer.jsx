@@ -1,3 +1,5 @@
+import {BsFacebook,BsTwitter,BsInstagram,BsTelephone,} from 'react-icons/bs'
+import {Md10K, MdEmail,MdFax} from 'react-icons/md'
 import './footer.css'
 
 function Footer() {
@@ -12,15 +14,15 @@ function Footer() {
         </div>
         <div className="app__footer-contain_middle">
           <h3>Contact</h3>
-          <span>Email: music100@gmail.com</span>
-          <span>Tel: +256 746 376 353</span>
-          <span>Fax: m100@fax.com</span>
+          <div><MdEmail /> music100@gmail.com</div>
+          <div><BsTelephone /> +256 746 376 353</div>
+          <div><Md10K /> m100@fax.com</div>
         </div>
         <div className="app__footer-contain_right">
           <h3>Follow</h3>
-          <span>Twitter: @music100</span>
-          <span>Facebook: music100_Official</span>
-          <span>Instagram: music100_Official</span>
+          <div>Twitter: @music100</div>
+          <div>Facebook: music100_Official</div>
+          <div>Instagram: music100_Official</div>
         </div>
       </div>
       <span id='last'>Enrico Mani ©2023.</span>

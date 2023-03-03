@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {GiHamburgerMenu } from 'react-icons/gi'
-import {MdOutlineRestaurantMenu} from 'react-icons/md'
+import {BsFacebook,BsTwitter,BsInstagram,BsTelephone,} from 'react-icons/bs'
+import {MdOutlineRestaurantMenu,MdEmail,MdFax} from 'react-icons/md'
 // import logo from '../../constants/images'
 
 import './navbar.css'

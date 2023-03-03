@@ -21,8 +21,8 @@ function About() {
          We so opinion friends me message as delight.
           Whole front do of plate heard oh ought.
         </p>
-        <button>
-          <a href="/">Try it Today.</a>
+        <button className='app__about-btn'>
+          <a href="/" className='text-gradient'>Try it Today.</a>
         </button>
       </div>
       

@@ -31,6 +31,7 @@
     margin-top: 3rem;
     margin-bottom: 5rem;
 }
+
 button{
     width: 100%;
     margin-top: 6rem;
@@ -39,6 +40,88 @@ button{
     outline: none;
     background-color: #000;
 }
+button a{
+
+}
+button:hover, button a:hover{
+
+}
+.text-gradient{
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 13% 84%, rgba(0, 255, 243, 1) 0%, rgba(128, 128, 128, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 13% 84%, rgba(0, 255, 243, 1) 0%, rgba(128, 128, 128, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 13% 84%, rgba(0, 255, 243, 1) 0%, rgba(128, 128, 128, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 13% 84%, rgba(0, 255, 243, 1) 0%, rgba(128, 128, 128, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 13% 84%, rgba(0, 255, 243, 1) 0%, rgba(128, 128, 128, 1) 100%);
+
+}
+.vibrate-2 {
+	-webkit-animation: vibrate-2 0.3s linear infinite both;
+	        animation: vibrate-2 0.3s linear infinite both;
+}
+
+ /* @-webkit-keyframes vibrate-2 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    40% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    60% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  }
+  @keyframes vibrate-2 {
+    0% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+    20% {
+      -webkit-transform: translate(2px, -2px);
+              transform: translate(2px, -2px);
+    }
+    40% {
+      -webkit-transform: translate(2px, 2px);
+              transform: translate(2px, 2px);
+    }
+    60% {
+      -webkit-transform: translate(-2px, 2px);
+              transform: translate(-2px, 2px);
+    }
+    80% {
+      -webkit-transform: translate(-2px, -2px);
+              transform: translate(-2px, -2px);
+    }
+    100% {
+      -webkit-transform: translate(0);
+              transform: translate(0);
+    }
+  } */
+  
 
 @media screen and (max-width: 1174px) {
     .app__about{
